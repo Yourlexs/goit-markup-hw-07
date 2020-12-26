@@ -267,19 +267,9 @@ summary {
   display: list-item;
 }
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --secondary-background-color: #f5f4fa;
-  --hero-bgr-color: #2f303a;
-  --icon-color: #afb1b8;
-}
-
 body {
-  color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
+  color: #757575;
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -354,11 +344,11 @@ img {
   position: relative;
   display: block;
   padding: 32px 0;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .nav-list__link:visited {
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 /* Animation for link */
@@ -372,7 +362,7 @@ img {
 .nav-list__link.current,
 .address-list__link:hover,
 .address-list__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-list__link.current::after {
@@ -383,7 +373,7 @@ img {
   content: "";
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   border-radius: 2px;
 }
 
@@ -405,7 +395,7 @@ img {
 .address-list__link {
   display: inline-flex;
   align-items: center;
-  color: var(--primary-text-color);
+  color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -425,7 +415,7 @@ img {
 }
 
 .logo {
-  color: var(--title-text-color);
+  color: #212121;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -436,7 +426,7 @@ img {
 }
 
 .accent {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .button {
@@ -446,8 +436,8 @@ img {
   margin: auto;
   padding: 10px 28px;
   width: 200px;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-style: normal;
@@ -466,14 +456,14 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--hero-bgr-color);
+  background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .hero__title {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -506,7 +496,7 @@ img {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background-color: var(--secondary-background-color);
+  background-color: #f5f4fa;
 }
 
 .features__icon {
@@ -516,7 +506,7 @@ img {
 
 .features__title {
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -535,7 +525,7 @@ img {
 }
 
 .about-us__title {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -569,7 +559,7 @@ img {
   height: 70px;
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--primary-white-color);
+  color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
   font-style: normal;
   font-weight: 700;
@@ -582,7 +572,7 @@ img {
 .about-team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--secondary-background-color);
+  background-color: #f5f4fa;
 }
 
 .about-team__list {
@@ -591,7 +581,7 @@ img {
 
 .about-team__item {
   width: 270px;
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -607,7 +597,7 @@ img {
 /* Имена сотрудников */
 .name {
   margin-bottom: 10px;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -637,7 +627,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--icon-color);
+  color: #afb1b8;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -645,12 +635,12 @@ img {
 }
 
 .social-list__link:visited {
-  color: var(--icon-color);
+  color: #afb1b8;
 }
 
 .social-list__link:hover, .social-list__link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .social-list__icon {
@@ -677,21 +667,21 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--icon-color);
+  color: #afb1b8;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list__link:visited {
-  color: var(--icon-color);
+  color: #afb1b8;
 }
 
 .client-list__link:hover, .client-list__link:focus {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
+  border-color: #2196f3;
+  color: #2196f3;
 }
 
 .client-list__icon {
@@ -724,7 +714,7 @@ img {
   min-width: 528px;
   min-height: 581px;
   padding: 40px;
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
 }
 
 .close {
@@ -752,7 +742,7 @@ img {
 
 .close:hover .iconClose,
 .close:focus .iconClose {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 /* Форма в модальном окне */
@@ -763,18 +753,18 @@ img {
 
 .inputBox {
   position: relative;
-  color: var(--title-text-color);
+  color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inputBox:focus-within {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .form-modal__title {
   margin-top: 0;
   margin-bottom: 12px;
-  color: var(--title-text-color);
+  color: #212121;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -804,7 +794,7 @@ img {
 
 .form-modal input:focus,
 .textareaField textarea:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
   cursor: pointer;
   outline: 0;
 }
@@ -846,7 +836,7 @@ img {
 }
 
 input:checked + .agreement::before {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   background-image: url(../images/icon-check.svg);
   background-origin: border-box;
 }
@@ -881,12 +871,12 @@ input:checked + .agreement::before {
 }
 
 .checkboxField a {
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: underline;
 }
 
 footer {
-  background-color: var(--hero-bgr-color);
+  background-color: #2f303a;
 }
 
 footer .container {
@@ -901,7 +891,7 @@ footer .container {
   display: inline-block;
   margin-right: 0;
   margin-bottom: 20px;
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .footer-address__list {
@@ -916,7 +906,7 @@ footer .container {
 }
 
 .footer-address__item {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .footer-social {
@@ -926,7 +916,7 @@ footer .container {
 .footer-social__title {
   margin-top: 0;
   margin-bottom: 20px;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -940,7 +930,7 @@ footer .container {
 }
 
 .footer-social__icon {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
 }
 
 .footer-form {
@@ -956,7 +946,7 @@ footer .container {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .mail-form {
@@ -999,8 +989,8 @@ footer .container {
 }
 
 .button-list__button {
-  color: var(--title-text-color);
-  background-color: var(--secondary-background-color);
+  color: #212121;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -1013,8 +1003,8 @@ footer .container {
 }
 
 .button-list__button:hover, .button-list__button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -1075,7 +1065,7 @@ footer .container {
 
 .card-content__title {
   margin-bottom: 4px;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1084,7 +1074,7 @@ footer .container {
 
 .card-content__description {
   margin: 0;
-  color: var(--primary-text-color);
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -1120,6 +1110,6 @@ footer .container {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

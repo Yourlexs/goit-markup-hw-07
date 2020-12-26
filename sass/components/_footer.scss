@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--hero-bgr-color);
+    background-color: $hero-bgr-color;
 }
 
 footer .container {
@@ -14,7 +14,7 @@ footer .container {
     display: inline-block;
     margin-right: 0;
     margin-bottom: 20px;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 }
 
 .footer-address__list {
@@ -30,7 +30,7 @@ footer .container {
 
 .footer-address__item{
     @extend .footer-address__link;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 }
 
 // Список соцсетей в футере
@@ -42,7 +42,7 @@ footer .container {
 .footer-social__title {
     margin-top: 0;
     margin-bottom: 20px;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -57,7 +57,7 @@ footer .container {
 }
 
 .footer-social__icon {
-    fill: var(--primary-white-color);
+    fill: $primary-white-color;
 }
 
 // Форма в футере
@@ -75,7 +75,7 @@ footer .container {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 }
 
 .mail-form {

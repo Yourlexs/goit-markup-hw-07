@@ -21,7 +21,7 @@
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    background-color: var(--secondary-background-color);
+    background-color: $secondary-background-color;
 }
 
 .features__icon{
@@ -31,7 +31,7 @@
 
 .features__title {
     text-transform: uppercase;
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
