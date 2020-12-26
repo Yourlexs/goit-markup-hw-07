@@ -1,4 +1,3 @@
-
 footer {
     background-color: var(--hero-bgr-color);
 }
@@ -22,16 +21,16 @@ footer .container {
     font-style: normal;
 }
 
-
-.footer-address__item {
+.footer-address__link {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}
 
-    &:first-child {
+.footer-address__item{
+    @extend .footer-address__link;
     color: var(--primary-white-color);
-    }
 }
 
 // Список соцсетей в футере
@@ -51,9 +50,6 @@ footer .container {
     text-transform: uppercase;
 }
 
-.footer-social__list {
-    margin: 0;
-}
 
 .footer-social__link {
     background-color: rgba(255, 255, 255, 0.1);

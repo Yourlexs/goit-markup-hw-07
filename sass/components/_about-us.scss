@@ -2,7 +2,7 @@
     padding-bottom: 94px;
 }
 
-.about-us-title {
+.about-us__title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -11,22 +11,22 @@
     margin-bottom: 50px;
 }
 
-.about-us-list {
+.about-us__list {
     display: flex;
     padding: 0;
     margin: 0;
 }
 
-.about-us-list li {
+.about-us__item {
     position: relative;
     width: 370px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.about-us-list li:not(:last-child) {
-    margin-right: 30px;
-}
 
-.about-us p {
+.about-us__description {
     position: absolute;
     left: 0;
     bottom: 0%;

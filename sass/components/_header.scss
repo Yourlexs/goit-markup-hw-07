@@ -29,14 +29,15 @@
     margin-right: 50px;
 }
 
-.link {
-    color: var(--title-text-color);
-}
-
 .nav-list__link {
     position: relative;
     display: block;
     padding: 32px 0;
+    color: var(--title-text-color);
+    
+    &:visited {
+        color: var(--title-text-color);
+    }
 }
 
 /* Animation for link */

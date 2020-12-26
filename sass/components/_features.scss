@@ -3,10 +3,10 @@
     padding-bottom: 94px;
 }
 
-.feature-list {
+.features-list {
     display: flex;
 }
-.feature-list__item {
+.features-list__item {
     width: 270px;
 
     &:not(:last-child) {
@@ -24,12 +24,12 @@
     background-color: var(--secondary-background-color);
 }
 
-.feature-list svg {
+.features__icon{
     width: 70px;
     height: 70px;
 }
 
-.features h3 {
+.features__title {
     text-transform: uppercase;
     color: var(--title-text-color);
     font-weight: 700;
@@ -37,15 +37,10 @@
     line-height: 1.14;
 }
 
-.features p {
+.features__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.features ul {
     margin-top: 0;
     margin-bottom: 0;
 }
