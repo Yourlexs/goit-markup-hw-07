@@ -3,7 +3,7 @@
 body {
     color: $primary-text-color;
     background-color: $primary-white-color;
-    font-family: Roboto, sans-serif;
+    font-family: $primary-font;
     letter-spacing: 0.03em;
 }
 
@@ -37,3 +37,9 @@ img {
 
 // Переиспользуемые свойства
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
